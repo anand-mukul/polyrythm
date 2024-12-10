@@ -11,4 +11,3 @@ function playSound(frequency = 440, duration = 2) {
   oscillator.start();
   oscillator.stop(audioCtx.currentTime + duration);
 }
-playSound();
